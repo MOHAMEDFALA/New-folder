@@ -2,15 +2,36 @@ body{
     padding: 0;
     margin: 0;
     
+    
 }
 
 .hd{
+    
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(114, 123, 250);
    width: 100%;
-   height: 120px;
+   height: 70px;
    font-size: 1.2em;
+}
+.bg{
+    background-image: url(image/Brown\ Wheat\ Neutral\ Baby\ Happy\ Birthday\ Poster.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+
+}
+a{
+    text-decoration: none;
+    position: relative
+    ;
+    left: 45%;
+    font-size: 1.2em;
+    border: 1px black solid;
 }
