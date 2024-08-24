@@ -25,6 +25,10 @@ form{
     position: relative;
     top: -510px;
 }
+h1{
+    display: inline-block;
+    border: 5px #68d3d5 solid;
+}
 .UN input{
     width: 250px;
     height: 30px;
