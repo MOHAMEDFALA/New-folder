@@ -14,14 +14,14 @@ body{
     justify-content: center;
     background-color: rgb(114, 123, 250);
    width: 100%;
-   height: 70px;
+   height: 100px;
    font-size: 1.2em;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:370px) {
     .hd{
-        width:300px;
-        height:180px;
+        width:360px;
+        height:120px;
     }
 
     .fi img{
@@ -29,6 +29,10 @@ body{
         height:500px;
 
     }
+    form h1{
+        font-size: 1em;
+    }
+
 }
 
 img{
@@ -45,12 +49,12 @@ h1{
     border: 5px #68d3d5 solid;
 }
 .UN input{
-    width: 250px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
 }
 .UP input{
-    width: 250px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
 }
 
 a{
@@ -74,18 +78,20 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+flex-basis: 20%;
 
 }
 
 .gallery img{
-width: 400px;
-height: 300px;
+width: 350px;
+height: 380px;
 border: 2px solid #ff3d0036;
 border-radius: 13px;
 box-shadow: 4px 7px 70x 0px #00000042;
 cursor: pointer;
 margin: 10px;
 transition: 400ms;
+flex-basis: 20%;
 }
 
 .gallery video{
@@ -101,4 +107,14 @@ transition: 400ms;
     .gallery img:hover{
         filter: grayscale(1);
         transform: scale(1.03);
+    }
+
+    h2{
+        height: 100px;
+        text-align: center;
+        background-image: url(image/chocolate_hero1-d62e5444a8734f8d8fe91f5631d51ca5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: whitesmoke;
+        text-decoration: underline;
     }
