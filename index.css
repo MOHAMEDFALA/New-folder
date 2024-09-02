@@ -1,120 +1,85 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #2c3e50;
-    
-    
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image: url(image/Brown\ Wheat\ Neutral\ Baby\ Happy\ Birthday\ Poster.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 280vh;
+}
+nav{
+  background-color: chartreuse;
+  font-size: 28px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: burlywood;
 }
 
-.hd{
-    
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(114, 123, 250);
-   width: 100%;
-   height: 100px;
-   font-size: 1.2em;
+nav li{
+display: inline-block;
+margin: 0 8px;
 }
 
-@media screen and (max-width:370px) {
-    .hd{
-        width:360px;
-        height:120px;
-    }
-
-    .fi img{
-        width:300px;
-        height:500px;
-
-    }
-    form h1{
-        font-size: 1em;
-    }
-
+nav a{
+  text-decoration: none;
 }
 
-img{
-    position: relative;
-    display: inline-flex;
+nav a:hover{
+  color: aliceblue;
 }
 
-form{
-    position: relative;
-    top: -510px;
-}
-h1{
-    display: inline-block;
-    border: 5px #68d3d5 solid;
-}
-.UN input{
-    width: 200px;
-    height: 20px;
-}
-.UP input{
-    width: 200px;
-    height: 20px;
+.logo{
+  font-size: 36px;
+  font-weight: bolder;
 }
 
-a{
-    text-decoration: none;
-    right: 50px;
-    top: 5px;
-    position: relative;
-    
+.menu-line{
+  width: 20px;
+  height: 3px;
+  background-color: darkslateblue;
+  margin-bottom: 3px;
 }
 
-.su input{
-    width: 250px;
-    height: 30px;
-    background: #399afa;
-    border-radius: 15px;
-    top: 25px;
+.menu{
+  cursor: pointer;
+  display: none;
+ 
 }
 
-.gallery{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-flex-basis: 20%;
+@media all and (max-width:700px){
+
+nav{
+  flex-direction: column;
 
 }
 
-.gallery img{
-width: 350px;
-height: 380px;
-border: 2px solid #ff3d0036;
-border-radius: 13px;
-box-shadow: 4px 7px 70x 0px #00000042;
-cursor: pointer;
-margin: 10px;
-transition: 400ms;
-flex-basis: 20%;
+nav li{
+  display: block;
+  padding: 10px 0;
+}
+ul{
+  text-align: center;
+  padding: 0;
 }
 
-.gallery video{
-    width: 400px;
-    height: 300px;
-    border: 2px solid #ff3d0036;
-    border-radius: 13px;
-    box-shadow: 4px 7px 70x 0px #00000042;
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-    }
-    .gallery img:hover{
-        filter: grayscale(1);
-        transform: scale(1.03);
-    }
+.logo{
+  align-self: flex-start;
+  margin: 10px 0 0 30px;
+}
 
-    h2{
-        height: 100px;
-        text-align: center;
-        background-image: url(image/chocolate_hero1-d62e5444a8734f8d8fe91f5631d51ca5.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: whitesmoke;
-        text-decoration: underline;
-    }
+.menu{
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+ul{
+  display: none;
+}
+.showmenu{
+  display: block;
+}
+}

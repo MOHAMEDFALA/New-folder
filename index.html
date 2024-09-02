@@ -5,37 +5,37 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>HAPPY BIRTHDAY ARFAN 🍰</title>
+	<title>MOHAMED ARFAN </title>
 </head>
 <body>
-<center>
-	
-<div class="fi">
-<img  src="image/Brown Wheat Neutral Baby Happy Birthday Poster.jpg" alt="arfan photo" width="700px" height="800px">
+
+<nav>
+	<div class="logo"><a href="">ARFAN</a>
+	</div>
+
+	<ul >
+		<li><a href="">HOME</a></li>
+		<li><a href="">GALLERY</a></li>
+		<li><a href="">ABOUT</a></li>
+		<li><a href="">CONTACT</a></li>
+	</ul>
+
+<div class="menu">
+<div class="menu-line"></div>
+<div class="menu-line"></div>
+<div class="menu-line"></div>
+
 </div>
 
-<form action="home.html">
-	<h1>Sign in</h1>
-	<div class="UN">
-<input type="text" placeholder=" USER NAME" required minlength="5" maxlength="10">
-	</div>
+</nav>
+<script>
 
-	<div class="UP">
-		<input type="password" placeholder="password" required minlength="3" maxlength="10">
-	</div>
-	<br>
-
-	<div class="su">
-		<input type="submit">
-	</div>
-	<a href="#">Forget password ?</a>
-</form>
-
-
-</center>
-
-
-
+const menu = document.querySelector('.menu')
+const menulist = document.querySelector('nav ul')
+menu.addEventListener('click',() =>{
+	menulist.classList.toggle('showmenu')
+})
+</script>
 
 </body>
 </html>  
