@@ -42,12 +42,18 @@ body{
   font-size: 40px;
 }
 .hedertitle{
+  width: 350px;
   position: relative;
   top: -130px;
   left: 600px;
   color: white;
 }
-
+.hedertitle h1{
+  padding: 0;
+  margin: 0;
+  width: 340px;
+  display: inline;
+}
 .nav{
   position: relative;
   top: 1px;
@@ -122,8 +128,10 @@ body{
   top: -65px;
   left: 120px;
   font-size: 11px;
-  
+  width: 280px;
+ 
 }
+
 
 .nav{
   position: relative;
