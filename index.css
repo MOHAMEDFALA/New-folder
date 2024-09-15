@@ -84,7 +84,7 @@ color: #46d8a0;
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:700px) {
   body{
     padding: 0;
     margin: 0;
@@ -136,12 +136,12 @@ color: #46d8a0;
   top: -45px;
   left: 120px;
  display: block;
- width: 240px;
+ width: fit-content ;
  
 }
 
-.hedertitle{
-  font-size: 8px;
+.hedertitle h1{
+  font-size: 16px;
 }
 
 .nav{
