@@ -97,6 +97,7 @@ color: #46d8a0;
   height: 110px;
 }
 
+
 .headername{
   
   position: relative;
@@ -132,14 +133,16 @@ color: #46d8a0;
 .hedertitle{
   color: rgb(0, 0, 0);
   position: relative;
-  top: -65px;
+  top: -45px;
   left: 120px;
-  font-size: 11px;
  display: block;
  width: 240px;
  
 }
 
+.hedertitle{
+  font-size: 8px;
+}
 
 .nav{
   position: relative;
